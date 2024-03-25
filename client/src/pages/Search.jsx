@@ -154,7 +154,7 @@ export default function Search() {
           </Button>
         </form>
       </div>
-      
+
       <div className="w-full">
         <h1 className="text-3xl font-semibold sm:border-b border-gray-500 p-3 mt-5 ">
           Posts results:
