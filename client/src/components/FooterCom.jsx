@@ -18,7 +18,7 @@ export default function FooterCom() {
               className="self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white"
             >
               <span className="px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white">
-                Otabek&#x2019;s
+                Student&#x2019;s
               </span>
               Blog
             </Link>
@@ -38,14 +38,10 @@ export default function FooterCom() {
                     My JS Projects
                   </span>
                 </Footer.Link>
-                <Footer.Link
-                  href="/about"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Footer.Link href="/about" target="_blank" rel="noopener noreferrer">
                   <span className="flex items-center gap-1">
                     <TbBrandBlogger />
-                    Otabek&#x2019;s blog
+                    Student&#x2019;s blog
                   </span>
                 </Footer.Link>
               </Footer.LinkGroup>
@@ -65,7 +61,7 @@ export default function FooterCom() {
                   </span>
                 </Footer.Link>
                 <Footer.Link
-                  href="https://www.linkedin.com/in/otabek-%D1%82ulaganov-143106294/"
+                  href="https://www.linkedin.com/in/Student-%D1%82ulaganov-143106294/"
                   target="_blank"
                 >
                   <span className="flex items-center gap-1">
@@ -100,7 +96,7 @@ export default function FooterCom() {
         <div className="w-full sm:flex sm:items-center sm:justify-center">
           <Footer.Copyright
             href="#"
-            by={`Otabek's blog. All rights preserved. ${new Date().getFullYear()}`}
+            by={`Student's blog. All rights preserved. ${new Date().getFullYear()}`}
           />
         </div>
       </div>
