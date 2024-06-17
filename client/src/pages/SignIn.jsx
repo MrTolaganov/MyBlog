@@ -54,7 +54,7 @@ export default function SignIn() {
         <div className="flex-1">
           <Link to="/" className="font-bold dark:text-white text-4xl">
             <span className="px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white">
-              Student&#x2019;s
+              Otabek&#x2019;s
             </span>
             Blog
           </Link>
@@ -69,7 +69,7 @@ export default function SignIn() {
               <Label value="Your email" />
               <TextInput
                 type="email"
-                placeholder="Studenttulaganov@gmail.com"
+                placeholder="Otabektulaganov@gmail.com"
                 id="email"
                 onChange={handleChange}
               />
